@@ -1,0 +1,60 @@
+﻿
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/Title.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.titleContent {
+    float: left;
+    display: inline;
+    font-family: Orbitron;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+nav {
+    float: left;
+    display: block;
+    text-align: center center;
+    list-style-type: none;
+    text-decoration: none;
+    top: 55%;
+    left: 15%;
+    position: absolute;
+    font-size: 35px;
+}
+
+nav ul li {
+    display: inline;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #502881;
+}
+nav ul li:hover {
+    background-color: rgb(46 46 46 / 0.50);
+}
+nav ul li a {
+    padding: 1.2em 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
